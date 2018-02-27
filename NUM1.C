@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-main()
+int main()
 {
  int i,j,x;
  time_t lt;
 
- clrscr();
+void clrscr();
  printf("\nPlease input a number:(1....9999)==> ");
  scanf("%d",&x);
  printf("\n");
@@ -21,5 +21,6 @@ main()
   printf("  ");
   }
  printf("\n");
- }
-
+
+return(0);
+}
