@@ -7,7 +7,8 @@ int main()
  int i,j,x;
  time_t lt;
 
-void clrscr();
+system("clear");
+
  printf("\nPlease input a number:(1....9999)==> ");
  scanf("%d",&x);
  printf("\n");
@@ -20,7 +21,7 @@ void clrscr();
    }
   printf("  ");
   }
- printf("\n");
+ printf("\n\n");
 
-return(0);
+return 0;
 }
